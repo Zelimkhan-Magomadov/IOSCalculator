@@ -2,8 +2,8 @@ package zelimkhan.magomadov.ioscalculator.calculator
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import zelimkhan.magomadov.ioscalculator.domain.CalculateExpressionUseCase
-import zelimkhan.magomadov.ioscalculator.domain.ValidateExpressionUseCase
+import zelimkhan.magomadov.ioscalculator.domain.usecase.CalculateExpressionUseCase
+import zelimkhan.magomadov.ioscalculator.domain.usecase.ValidateExpressionUseCase
 
 class CalculatorViewModelFactory(
     private val validateExpressionUseCase: ValidateExpressionUseCase,

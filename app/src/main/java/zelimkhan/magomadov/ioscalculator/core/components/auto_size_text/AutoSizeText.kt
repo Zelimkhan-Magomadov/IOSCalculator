@@ -1,4 +1,4 @@
-package zelimkhan.magomadov.ioscalculator.components.auto_size_text
+package zelimkhan.magomadov.ioscalculator.core.components.auto_size_text
 
 import android.util.Log
 import androidx.compose.foundation.layout.BoxWithConstraints
@@ -40,7 +40,7 @@ import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.isSpecified
 import androidx.compose.ui.unit.sp
-import zelimkhan.magomadov.ioscalculator.components.auto_size_text.SuggestedFontSizesStatus.Companion.rememberSuggestedFontSizesStatus
+import zelimkhan.magomadov.ioscalculator.core.components.auto_size_text.SuggestedFontSizesStatus.Companion.rememberSuggestedFontSizesStatus
 import kotlin.math.min
 
 /**

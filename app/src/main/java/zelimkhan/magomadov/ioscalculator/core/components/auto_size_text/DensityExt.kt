@@ -1,4 +1,4 @@
-package zelimkhan.magomadov.ioscalculator.components.auto_size_text
+package zelimkhan.magomadov.ioscalculator.core.components.auto_size_text
 
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
